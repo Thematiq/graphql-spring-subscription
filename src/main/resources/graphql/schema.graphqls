@@ -1,0 +1,7 @@
+type Query {
+    sayHello: String
+}
+
+type Subscription {
+    greeting(count: Int): String
+}
